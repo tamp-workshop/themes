@@ -12,7 +12,7 @@ Three identities, each in Night and Day.
 ### Lunar Lobby
 **Retro-Futurist Hospitality.**
 
-Inspired by the monolithic architecture and cinematic warmth of Arctic Monkeys' *Tranquility Base Hotel & Casino*. Rich terracotta keywords, sage-green functions, vintage ochre strings. The background is a roasted espresso — dark enough to be a proper dark theme, warm enough to feel like a room rather than a void.
+Inspired by the monolithic architecture and cinematic warmth of Arctic Monkeys' *Tranquility Base Hotel & Casino*. Rich terracotta keywords, sage-green functions, vintage ochre strings. The background is a roasted espresso, dark enough to be a proper dark theme, warm enough to feel like a room rather than a void.
 
 - **Palette:** Roasted Bean · Terracotta · Sage Lounge · Vintage Ochre
 - **Night bg:** `#26201E` — deep espresso
@@ -23,7 +23,7 @@ Inspired by the monolithic architecture and cinematic warmth of Arctic Monkeys' 
 ### Space Rumours
 **Luminance as Logic.**
 
-A monochromatic study inspired by the stark contrast of the *Rumours* album cover. By stripping away hue, it forces your brain to parse code through light and shadow alone — functions are the brightest thing on screen, brackets nearly disappear, comments dissolve into shadow.
+A monochromatic study inspired by the stark contrast of the Fleetwood Mac's iconic *Rumours* album cover. By stripping away hue, it forces your brain to parse code through light and shadow alone. Functions are the brightest thing on screen, brackets nearly disappear, comments dissolve into shadow.
 
 The Day variant introduces a single deliberate exception: strings gain a warm bone/ivory tint. One hue. Chosen because it breaks the rule in a way that feels considered rather than accidental.
 
@@ -46,7 +46,7 @@ The Day variant introduces a single deliberate exception: strings gain a warm bo
 ### Vanguard Outpost
 **The Night-Ops Terminal.**
 
-A deep purple-maroon atmosphere for high-focus work. Ion blue functions float against the nebula-shadow background; sage-olive types ground them. Amber strings are the warmest thing on screen — deliberate contrast against the cool violet field.
+A deep purple-maroon atmosphere for high-focus work. Ion blue functions float against the nebula-shadow background; sage-olive types ground them. Amber strings are the warmest thing on screen with a deliberate contrast against the cool violet field.
 
 The Day variant shifts toward dusty rosewood, keeping the plum DNA intact under bright light.
 
@@ -60,11 +60,11 @@ The Day variant shifts toward dusty rosewood, keeping the plum DNA intact under 
 
 ### 1. The Luminance Floor
 
-Every syntax colour sits above a minimum contrast ratio against the background. Comments sit just below at ~3.0:1: readable, but clearly subordinate to code. Backgrounds are matte, not black — pure black causes mirror-glare and forces pupil dilation every time you glance away from the editor.
+Every syntax colour sits above a minimum contrast ratio against the background. Comments sit just below at ~3.0:1: readable, but clearly subordinate to code. Backgrounds are matte, not black as pure black causes mirror-glare and forces pupil dilation every time you glance away from the editor.
 
 ### 2. The Extraction Rule
 
-Like a perfect espresso, we've tamped the noise. Operators and punctuation recede. Comments sit in shadow. What rises to the surface — functions, strings, keywords — is the crema: the vital logic of your code.
+Like a perfect espresso (did you figure I like coffee by now?), we've tamped the noise. Operators and punctuation recede. Comments sit in shadow. What rises to the surface are functions, strings, and keywords: the vital logic of your code.
 
 ### 3. Semantic Temperature
 
@@ -91,7 +91,7 @@ Activity Bar, Sidebar, Tab Bar, and Status Bar share one surface. No borders com
 
 ## Installation
 
-### VS Code — Marketplace
+### VS Code — Marketplace (TBA)
 
 Search **Tamp** in the Extensions panel, or:
 
@@ -183,5 +183,5 @@ Keep the extraction perfect.
 
 ---
 
-*Part of the [tamp](https://github.com/tamp-workshop) toolkit.*  
+*Part of the [tamp](https://github.com/tamp-workshop) workshop.*  
 MIT License
