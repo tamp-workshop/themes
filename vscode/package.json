@@ -1,10 +1,18 @@
 {
   "name": "tamp",
   "displayName": "Tamp",
-  "description": "Six cinematic dark themes: three identities, night and day.",
+  "description": "Six cinematic themes: three identities, night and day.",
   "version": "1.0.0",
-  "publisher": "tamp-theme",
+  "publisher": "tamp-workshop",
   "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tamp-workshop/themes"
+  },
+  "homepage": "https://github.com/tamp-workshop/themes",
+  "bugs": {
+    "url": "https://github.com/tamp-workshop/themes/issues"
+  },
   "engines": {
     "vscode": "^1.85.0"
   },
@@ -18,7 +26,9 @@
     "espresso",
     "monochrome",
     "cinematic",
-    "ergonomic"
+    "ergonomic",
+    "lunar",
+    "vim"
   ],
   "galleryBanner": {
     "color": "#26201E",
@@ -30,32 +40,32 @@
       {
         "label": "Tamp: Lunar Lobby",
         "uiTheme": "vs-dark",
-        "path": "./themes/lunar-lobby.json"
+        "path": "./vscode/lunar-lobby.json"
+      },
+      {
+        "label": "Tamp: Lunar Lobby · Day",
+        "uiTheme": "vs-dark",
+        "path": "./vscode/lunar-lobby-day.json"
       },
       {
         "label": "Tamp: Space Rumours",
         "uiTheme": "vs-dark",
-        "path": "./themes/space-rumours.json"
+        "path": "./vscode/space-rumours.json"
+      },
+      {
+        "label": "Tamp: Space Rumours · Day",
+        "uiTheme": "vs-dark",
+        "path": "./vscode/space-rumours-day.json"
       },
       {
         "label": "Tamp: Vanguard Outpost",
         "uiTheme": "vs-dark",
-        "path": "./themes/vanguard-outpost.json"
+        "path": "./vscode/vanguard-outpost.json"
       },
       {
-        "label": "Tamp: Lunar Lobby \u00b7 Day",
+        "label": "Tamp: Vanguard Outpost · Day",
         "uiTheme": "vs-dark",
-        "path": "./themes/lunar-lobby-day.json"
-      },
-      {
-        "label": "Tamp: Space Rumours \u00b7 Day",
-        "uiTheme": "vs-dark",
-        "path": "./themes/space-rumours-day.json"
-      },
-      {
-        "label": "Tamp: Vanguard Outpost \u00b7 Day",
-        "uiTheme": "vs-dark",
-        "path": "./themes/vanguard-outpost-day.json"
+        "path": "./vscode/vanguard-outpost-day.json"
       }
     ]
   }
