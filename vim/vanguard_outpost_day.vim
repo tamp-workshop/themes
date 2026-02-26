@@ -103,6 +103,8 @@ hi GitSignsAdd                      guifg=#90AC74      guibg=NONE         gui=NO
 hi GitSignsChange                   guifg=#78AACC      guibg=NONE         gui=NONE
 hi GitSignsDelete                   guifg=#D47A7A      guibg=NONE         gui=NONE
 
+
+if has('nvim')
 " ─── Treesitter ────────────────────────────────────────────────────────────
 hi! link @comment                         Comment
 hi! link @comment.documentation           SpecialComment
@@ -173,5 +175,7 @@ hi DiagnosticUnderlineError         guifg=NONE         guibg=NONE         gui=un
 hi DiagnosticUnderlineWarn          guifg=NONE         guibg=NONE         gui=undercurl guisp=#CA9062
 hi DiagnosticUnderlineInfo          guifg=NONE         guibg=NONE         gui=undercurl guisp=#78AACC
 hi DiagnosticUnderlineHint          guifg=NONE         guibg=NONE         gui=undercurl guisp=#7A7286
+
+endif
 
 " vim: set ft=vim:
