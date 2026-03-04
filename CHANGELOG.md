@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.1
+
+Updated extension keywords for discoverability.
+
 ## 1.0.0
 
 The Day variants are now real Day themes.

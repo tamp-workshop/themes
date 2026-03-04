@@ -2,7 +2,7 @@
   "name": "tamp",
   "displayName": "Tamp",
   "description": "Six cinematic themes: three identities, night and day.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "tamp-workshop",
   "icon": "./vscode/icon.png",
   "engines": {
@@ -16,10 +16,12 @@
     "dark",
     "light",
     "warm",
-    "espresso",
+    "soft",
     "monochrome",
-    "cinematic",
-    "ergonomic"
+    "purple",
+    "semantic",
+    "night",
+    "day"
   ],
   "galleryBanner": {
     "color": "#26201E",
