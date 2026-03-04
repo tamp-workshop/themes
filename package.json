@@ -4,15 +4,7 @@
   "description": "Six cinematic themes: three identities, night and day.",
   "version": "1.0.0",
   "publisher": "tamp-workshop",
-  "icon": "icon.png",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/tamp-workshop/themes"
-  },
-  "homepage": "https://github.com/tamp-workshop/themes",
-  "bugs": {
-    "url": "https://github.com/tamp-workshop/themes/issues"
-  },
+  "icon": "./vscode/icon.png",
   "engines": {
     "vscode": "^1.85.0"
   },
@@ -22,19 +14,22 @@
   "keywords": [
     "theme",
     "dark",
+    "light",
     "warm",
     "espresso",
     "monochrome",
     "cinematic",
-    "ergonomic",
-    "lunar",
-    "vim"
+    "ergonomic"
   ],
   "galleryBanner": {
     "color": "#26201E",
     "theme": "dark"
   },
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tamp-workshop/themes"
+  },
   "contributes": {
     "themes": [
       {
@@ -43,19 +38,9 @@
         "path": "./vscode/lunar-lobby.json"
       },
       {
-        "label": "Tamp: Lunar Lobby · Day",
-        "uiTheme": "vs-dark",
-        "path": "./vscode/lunar-lobby-day.json"
-      },
-      {
         "label": "Tamp: Space Rumours",
         "uiTheme": "vs-dark",
         "path": "./vscode/space-rumours.json"
-      },
-      {
-        "label": "Tamp: Space Rumours · Day",
-        "uiTheme": "vs-dark",
-        "path": "./vscode/space-rumours-day.json"
       },
       {
         "label": "Tamp: Vanguard Outpost",
@@ -63,8 +48,18 @@
         "path": "./vscode/vanguard-outpost.json"
       },
       {
+        "label": "Tamp: Lunar Lobby · Day",
+        "uiTheme": "vs",
+        "path": "./vscode/lunar-lobby-day.json"
+      },
+      {
+        "label": "Tamp: Space Rumours · Day",
+        "uiTheme": "vs",
+        "path": "./vscode/space-rumours-day.json"
+      },
+      {
         "label": "Tamp: Vanguard Outpost · Day",
-        "uiTheme": "vs-dark",
+        "uiTheme": "vs",
         "path": "./vscode/vanguard-outpost-day.json"
       }
     ]

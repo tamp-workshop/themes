@@ -1,102 +1,83 @@
 # tamp themes
 
-> Six cinematic themes for VS Code and Vim.
+> Three identities. Night and Day. Built for the screen you stare at all day.
 
-Three identities. Night and Day variants. Built for the screen you stare at all day. They're supposed to be warm enough to feel like a room, considered enough to stay out of your way.
+![Version](https://img.shields.io/badge/version-v1.0.0-C87A72)
+![License](https://img.shields.io/badge/license-MIT-8CA870)
 
 ---
 
-## The Collection
+## The collection
 
 ### Lunar Lobby
-**Retro-Futurist Hospitality.**
 
-Inspired by the monolithic architecture and cinematic warmth of Arctic Monkeys' *Tranquility Base Hotel & Casino*. Terracotta keywords, sage-green functions, vintage ochre strings. The background is a roasted espresso. It's dark enough to be a proper dark theme, warm enough to feel like somewhere rather than nowhere.
+Inspired by the monolithic architecture and cinematic warmth of Arctic Monkeys' *Tranquility Base Hotel & Casino*. Terracotta keywords, sage functions, ochre strings on a roasted espresso background. Warm enough to feel like somewhere, dark enough to be a proper dark theme.
 
-- **Palette:** Roasted Bean · Terracotta · Sage Lounge · Vintage Ochre
-- **Night bg:** `#26201E` • deep espresso
-- **Day bg:** `#3A3430` • lifted warm matte
+The Day variant inverts the luminance map: warm parchment canvas, deep espresso text. The identity is now in the syntax, not the void.
+
+- **Night bg:** `#26201E` · deep espresso
+- **Day bg:** `#F5F0E8` · warm parchment
 
 ---
 
 ### Space Rumours
-**Luminance as Logic.**
 
-Inspired by the stark, legendary contrast of Fleetwood Mac's *Rumours* cover. Strip away hue and your brain parses code through light and shadow alone. Functions are the brightest thing on screen. Brackets nearly disappear. Comments dissolve.
+Strip away hue and your brain parses code through light and shadow alone. Functions are the brightest thing on screen. Brackets nearly disappear. Comments dissolve into shadow. Inspired by the stark, legendary contrast of Fleetwood Mac's *Rumours*.
 
-The Day variant introduces one deliberate exception: strings gain a warm bone tint. One hue, chosen because it breaks the rule in a way that feels considered rather than accidental.
+The Day variant is a true light theme — crisp near-white canvas, near-black text — with one deliberate break: strings in warm burnt umber. One hue, chosen because it earns its place.
 
-> **The value scale**
+> **The value scale (Night)**
 >
-> Functions   `#EDE8E0`  ████████████  • the action  
-> Keywords    `#D4CFC8`  ██████████░░  • structure  
-> Types       `#BEC4C8`  █████████░░░  • classification  
-> Variables   `#A4A9AE`  ███████░░░░░  • recede until needed  
-> Numbers     `#98A0A6`  ██████░░░░░░  • data, not logic  
-> Operators   `#6E7378`  █████░░░░░░░  • connective tissue  
-> Brackets    `#585D62`  ████░░░░░░░░  • disappear  
-> Comments    `#6E7378`  ███░░░░░░░░░  • shadow  
+> Functions   `#EDE8E0`  ████████████  · the action  
+> Strings     `#EEE4D4`  ████████████  · data (faint warmth)  
+> Keywords    `#D4CFC8`  ██████████░░  · structure  
+> Types       `#BEC4C8`  █████████░░░  · classification  
+> Numbers     `#98A0A6`  ██████░░░░░░  · data, not logic  
+> Operators   `#6E7378`  █████░░░░░░░  · connective tissue  
+> Brackets    `#585D62`  ████░░░░░░░░  · disappear  
+> Comments    `#787E84`  ███░░░░░░░░░  · shadow  
 
-- **Night:** pure greyscale, luminance only
-- **Day:** greyscale + warm bone on strings (`#C8BB98`)
+- **Night:** greyscale, luminance only
+- **Day bg:** `#FAFBFC` · crisp cool paper
 
 ---
 
 ### Vanguard Outpost
-**The Night-Ops Terminal.**
 
-Deep purple-maroon for high-focus work. Ion blue functions float against the nebula-shadow background. Sage-olive types ground them. Amber strings are the warmest thing on screen and are a deliberate contrast against the cool violet field.
+Deep purple-maroon for high-focus work. Ion blue functions float against the nebula background. Amber strings are the warmest thing on screen — deliberate contrast against the cool violet field.
 
-The Day variant shifts toward dusty rosewood. The plum DNA stays intact.
+The Day variant inverts: cool lavender paper canvas, deep plum text. The plum DNA lives in the syntax now.
 
-- **Palette:** Deep Plum · Ion Blue · Sage Olive · Warm Amber
-- **Night bg:** `#2A1C28` • deep purple-maroon
-- **Day bg:** `#402E32` • dusty rosewood
+- **Night bg:** `#2A1C28` · deep purple-maroon
+- **Day bg:** `#F2F0F6` · cool lavender paper
 
 ---
 
-## Design Principles
+## Design principles
 
-### 1. The Luminance Floor
+**The luminance floor.** Every primary token clears 4.5:1 against its background. Comments sit lower — readable but clearly subordinate. Backgrounds are matte, not black, to avoid mirror-glare on glossy screens.
 
-Every syntax colour sits above a minimum contrast ratio. Comments sit just below at ~3.0:1. Which is readable, but clearly subordinate. Backgrounds are matte, not black. Pure black causes mirror-glare on glossy screens and forces your pupils to dilate every time you glance away. tamp's darkest background is dark enough to be distinctly dark-themed, light enough to be matte.
+**The extraction rule.** Operators and punctuation recede. Comments sit in shadow. What rises — functions, strings, keywords — is the crema: the vital logic of your code.
 
-### 2. The Extraction Rule
+**Semantic temperature.** Warm = data. Cool = structure. Neutral = variables. You recognise what something is by its temperature before you've read the colour.
 
-Like a good espresso (yes, the name is a coffee reference, did it take you this long?), we've tamped the noise. Operators and punctuation recede. Comments sit in shadow. What rises to the surface, like functions, strings, keywords, is the crema: the vital logic of your code.
+**Font weight as hierarchy.** Keywords and storage are bold — they give code its grammar. Types and interfaces are italic — they classify, they don't act. In a monochromatic theme, weight *is* the hierarchy.
 
-### 3. Semantic Temperature
+**The 5th layer.** VS Code's semantic token system expresses things TextMate scopes cannot: `readonly` is desaturated, `async` is italic, `deprecated` fades with strikethrough, `defaultLibrary` tokens glow slightly — they come from outside your file, already proven. Requires `"editor.semanticHighlighting.enabled": true`.
 
-Warm = data (strings, values). Cool = structure (types, interfaces). Neutral = variables. You recognise what something is by its temperature before you even read the colour. Your brain already works this way. tamp themes just follow the wiring.
-
-### 4. The 5th Layer
-
-VS Code's semantic token system can express things TextMate scopes cannot. Same hue, different state:
-
-- **`readonly`** • desaturated, locked not removed
-- **`static`** • slightly brighter, always present
-- **`async`** • italic, because it suspends
-- **`abstract`** • italic and ethereal, cannot be instantiated
-- **`deprecated`** • strikethrough, dead code recedes
-- **`defaultLibrary`** • slightly brighter, proven from outside your file
-
-Requires `"editor.semanticHighlighting.enabled": true`. Worth it.
-
-### 5. Monolith UI
-
-Activity Bar, Sidebar, Tab Bar, Status Bar are all one surface. There are no borders. No UI chrome competing with your code in peripheral vision. The editor is a canvas, not an application window.
+**Monolith UI.** Activity Bar, Sidebar, Tab Bar, and Status Bar share one surface with no borders. The editor is a canvas, not an application window.
 
 ---
 
 ## Installation
 
-### VS Code ✧ Marketplace *(coming soon)*
+### VS Code · Marketplace
 
 ```sh
 code --install-extension tamp-workshop.tamp
 ```
 
-### VS Code ✧ Manual
+### VS Code · Manual
 
 ```sh
 git clone https://github.com/tamp-workshop/themes.git
@@ -108,25 +89,21 @@ Reload VS Code (`⌘⇧P` → *Reload Window*), pick a variant via `⌘K ⌘T`.
 ### Vim / Neovim
 
 ```sh
-# Neovim
-cp vim/<theme_name>.vim ~/.config/nvim/colors/
-
-# Vim
-cp vim/<theme_name>.vim ~/.vim/colors/
+cp vim/<theme_name>.vim ~/.config/nvim/colors/   # Neovim
+cp vim/<theme_name>.vim ~/.vim/colors/           # Vim
 ```
 
 ```vim
-" init.vim / .vimrc
-colorscheme lunar_lobby        " or: lunar_lobby_day
-                               "     space_rumours / space_rumours_day
-                               "     vanguard_outpost / vanguard_outpost_day
+colorscheme lunar_lobby          " or: lunar_lobby_day
+                                 "     space_rumours / space_rumours_day
+                                 "     vanguard_outpost / vanguard_outpost_day
 ```
 
-All Vim themes include full Treesitter and LSP/Diagnostics highlight groups. Yeey!
+All Vim themes include Treesitter and LSP/Diagnostics highlight groups.
 
 ---
 
-## Recommended Setup
+## Recommended setup
 
 ```json
 {
@@ -137,7 +114,7 @@ All Vim themes include full Treesitter and LSP/Diagnostics highlight groups. Yee
 }
 ```
 
-[JetBrains Mono](https://www.jetbrains.com/lp/mono/) is the design reference. Operator Mono or Recursive (with italic axis) will make the most of the semantic tokens.
+[JetBrains Mono](https://www.jetbrains.com/lp/mono/) is the design reference. Operator Mono or Recursive (with italic axis) makes the most of the semantic weight strategy.
 
 ---
 
@@ -149,7 +126,4 @@ Keep the extraction perfect.
 
 ---
 
-## Part of tamp
-
-A considered working environment for programmers who care.  
-[github.com/tamp-workshop](https://github.com/tamp-workshop) · MIT License
+Part of [tamp](https://github.com/tamp-workshop) · MIT License
